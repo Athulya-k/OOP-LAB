@@ -85,7 +85,7 @@ class Oop2_6
   
       Rectangle rec=new Rectangle(x, y);
     
-    System.out.println("Ether the radius of circle : ");
+    System.out.println("Enter the radius of circle : ");
      
    r=sc.nextDouble();
       
