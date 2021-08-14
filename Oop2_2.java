@@ -100,9 +100,14 @@ String Subject;
        System.out.println("Teacher ID : "+Teacherid);
    
  }
+
 }
-class Oop2_2{
-    public static void main(String[] args) {
+
+class Oop2_2
+{
+    
+public static void main(String[] args) 
+{
   
       Scanner sc=new Scanner(System.in);
    
