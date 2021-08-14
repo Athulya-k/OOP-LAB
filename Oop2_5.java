@@ -49,6 +49,7 @@ void findArea()
       System.out.println("The area of Square = "+a*a);
  
    }
+
 }
 
 class Circle extends Shape
@@ -69,6 +70,7 @@ void findArea()
        System.out.println("The area of Circle = "+3.14*r*r);
    
  }
+
 }
 
 class Oop2_5 
@@ -100,7 +102,7 @@ rec.findArea();
   
       s.findArea();
     
-    System.out.println("Ether the radius of circle : ");
+    System.out.println("Enter the radius of circle : ");
      
    x=sc.nextDouble();
     
