@@ -10,7 +10,8 @@ class Person
   
   int Age;
    
- Person(String name,String gender,String address,int age){
+ Person(String name,String gender,String address,int age)
+{
    
      Name=name;
   
@@ -49,6 +50,7 @@ class Employee extends Person
    Salary=salary;
   
   }
+
 }
 
 class Teacher extends Employee
