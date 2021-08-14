@@ -21,6 +21,7 @@ class Person
     Age=age;
   
   }
+
 }
 
 class Employee extends Person
@@ -118,8 +119,10 @@ class Oop2_2{
       
   temp=sc.nextLine();
       
-  for(int i=0;i<n;i++){
-            int m=i+1;
+  for(int i=0;i<n;i++)
+{
+         
+   int m=i+1;
     
         System.out.println("Enter the details of Teacher:"+m);
      
@@ -178,7 +181,8 @@ class Oop2_2{
          t[i]=new Teacher(name, gend, addr, age, eid, cname, quali, salary, sub, dept, tid);
    
      }
-        for(int i=0;i<n;i++)
+       
+ for(int i=0;i<n;i++)
    
      {
           
