@@ -124,60 +124,79 @@ class Oop2_2{
         System.out.println("Enter the details of Teacher:"+m);
      
        System.out.println();
-            System.out.println("Enter the Name :");
+  
+          System.out.println("Enter the Name :");
       
       name=sc.nextLine();
-            System.out.println("Enter the Gender :");
+   
+         System.out.println("Enter the Gender :");
      
        gend=sc.nextLine();
-            System.out.println("Enter the Address :");
+    
+        System.out.println("Enter the Address :");
     
         addr=sc.nextLine();
-            System.out.println("Enter the Age :");
+      
+      System.out.println("Enter the Age :");
    
          age=sc.nextInt();
-            temp=sc.nextLine();
+      
+      temp=sc.nextLine();
        
      System.out.println("Enter the Employee ID :");
    
          eid=sc.nextLine();
-            System.out.println("Enter the Company Name :");
+      
+      System.out.println("Enter the Company Name :");
      
        cname=sc.nextLine();
-            System.out.println("Enter the Qualification :");
+      
+      System.out.println("Enter the Qualification :");
  
            quali=sc.nextLine();
-            System.out.println("Enter the Salary :");
+       
+     System.out.println("Enter the Salary :");
     
         salary=sc.nextDouble();
-            temp=sc.nextLine();
+      
+      temp=sc.nextLine();
     
         System.out.println("Enter the Subject :");
       
       sub=sc.nextLine();
-            System.out.println("Enter the Department :");
+      
+      System.out.println("Enter the Department :");
    
          dept=sc.nextLine();
-            System.out.println("Enter the Teacher ID :");
+   
+         System.out.println("Enter the Teacher ID :");
     
         tid=sc.nextLine();
-            System.out.println();
+         
+   System.out.println();
    
          t[i]=new Teacher(name, gend, addr, age, eid, cname, quali, salary, sub, dept, tid);
    
      }
         for(int i=0;i<n;i++)
-        {
-            int m=i+1;
-            System.out.println();
+   
+     {
+          
+  int m=i+1;
+    
+        System.out.println();
      
        System.out.println("Teacher Details"+m);
     
         t[i].display();
-            System.out.println();
-        }
+     
+       System.out.println();
+    
+    }
 
      
    sc.close();
-    }
+  
+  }
+
 }
