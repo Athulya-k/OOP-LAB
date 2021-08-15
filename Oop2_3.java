@@ -31,6 +31,7 @@ public double calculateMonthlyInterest()
 double intRate=((savingsBalance*annualInterestRate)/12);
 
 savingsBalance=savingsBalance + intRate;
+
 return intRate;
 
 }
@@ -70,6 +71,7 @@ public double getAnnualInterestRate()
 return annualInterestRate;
 
 }
+
 }
 
 

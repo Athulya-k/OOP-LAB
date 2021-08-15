@@ -29,6 +29,7 @@ void findArea()
    System.out.println("The area of Rectangle = "+l*b);
   
   }
+
 }
 
 class Square extends Shape
