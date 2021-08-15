@@ -102,7 +102,8 @@ class Oop2_6
      
    System.out.println("3. Quit");
    
-     while(ch!=3){
+     while(ch!=3)
+{
       
       System.out.println("Enter the choice : ");
    
