@@ -1,6 +1,7 @@
 import java.util.*;
 
-interface myInterface{
+interface myInterface
+{
 
     void area();
 
@@ -22,8 +23,10 @@ Circle(double x)
 
     public void area()
 {
-        System.out.println("The area of Circle = "+3.14*r*r);
-    }
+       
+ System.out.println("The area of Circle = "+3.14*r*r);
+   
+ }
   
   public void perimeter()
  
@@ -62,7 +65,9 @@ class Rectangle implements myInterface
 {
        
  System.out.println("The perimeter of Rectangle = "+(2*(l+b)));
-    }
+   
+ }
+
 }
 
 class Oop2_6
@@ -133,7 +138,8 @@ case 1:
             System.out.println("Invalid choice ");
        
              break;
-            }
+       
+     }
     
         
         }
