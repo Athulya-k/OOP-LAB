@@ -45,13 +45,9 @@ k=sc.nextInt();
                                         d.calculate();
                                         break;
                                  
-
-
                                     default: System.out.println("WRONG CHOICE");
                                         break;
           }}
           while(k<=4);
-
-
-    }
+         }
 }
