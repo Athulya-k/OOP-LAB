@@ -2,7 +2,6 @@ import ArithemeticOperation.Addition;
 import ArithemeticOperation.Substraction;
 import ArithemeticOperation.Multiplication;
 import ArithemeticOperation.Division;
-
 import java.util.*;
 import java.io.*;
 public class ArithemeticOperations
@@ -10,7 +9,6 @@ public class ArithemeticOperations
     public static void main(String[] args)
     {
       int k;
-
         Addition a = new Addition();
           Substraction s = new Substraction();
             Multiplication m = new Multiplication();
@@ -22,8 +20,7 @@ public class ArithemeticOperations
          System.out.println("2.Substraction ");
           System.out.println("3.Multiplication");
          System.out.println("4.Division");
-        
- System.out.println("Enter Here:");
+         System.out.println("Enter Here:");
           Scanner sc = new Scanner(System.in);
 k=sc.nextInt();
 
@@ -35,9 +32,6 @@ k=sc.nextInt();
                    case 2:
                           s.calculate();
                           break;
-
-
-
                           case 3:
                                  m.calculate();
                                  break;

@@ -1,12 +1,12 @@
 package Graphics;
 import java.util.*;
 import java.io.*;
-//interface TestInterface
-//{
-//  abstract  void area();
+interface TestInterface
+{
+  abstract  void area();
 
 
-//}
+}
 public class Circle implements TestInterface
 {
 
@@ -16,7 +16,7 @@ public class Circle implements TestInterface
  {
      Scanner sc = new Scanner(System.in);
 
-   System.out.println ("Enter the radius of circle");
+   System.out.println ("Enter the radius of circle:");
     r = sc.nextInt();
 
 

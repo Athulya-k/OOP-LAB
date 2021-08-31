@@ -10,9 +10,9 @@ public class Square implements TestInterface
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println ("Enter the side of Square");
+		System.out.println ("Enter the side of Square:");
 		  x = sc.nextInt();
 
-		  System.out.println("the area of the square is "+Math.pow(x, 2)+" sq units");
+		  System.out.println("area of the square : "+Math.pow(x, 2)+" sq units");
 	}
 }
