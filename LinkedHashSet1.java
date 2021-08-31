@@ -6,11 +6,11 @@ class LinkedHashSet1
  public static void main(String args[]){
  //Creating HashSet and adding elements
         LinkedHashSet<String> set=new LinkedHashSet<String>();
-               set.add("parvathy");
-               set.add("lekshmi");
-               set.add("gouri");
-               set.add("miya");
-               set.add("riya");
+               set.add("Athulya");
+               set.add("sneha");
+               set.add("chithra");
+               set.add("haritha");
+               set.add("aneesha");
                Iterator<String> i=set.iterator();
                while(i.hasNext())
                {
