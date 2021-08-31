@@ -88,14 +88,14 @@ class SymmetricMatrix
        
      {
         
-        System.out.println("The given Matrix is Symmetric...");
+        System.out.println("The given Matrix is Symmetric");
         
     }
             else
            
  {
           
-      System.out.println("The given Matrix is not Symmetric...");
+      System.out.println("The given Matrix is not Symmetric");
      
        }
       
