@@ -1,16 +1,18 @@
-class CPU{
+class CPU
+{
   
   double price;
-  
+
   RAM robj;
-  
+
   Processor pobj;
  
-   CPU(double p,String rmemory,String rmanufacturer,String pmanufacturer,int pcores){
+  CPU(double p,String rmemory,String rmanufacturer,String pmanufacturer,int pcores)
+{
  
-       price=p;
+   price=p;
     
-    robj=new RAM(rmemory,rmanufacturer);
+   robj=new RAM(rmemory,rmanufacturer);
      
    pobj=new Processor(pcores,pmanufacturer);
   

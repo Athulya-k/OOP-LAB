@@ -6,25 +6,12 @@ class Complex
    double real;
  
    double img;
-   
- Complex()
+Complex()
 {
-      
-  real=0.0;
+real=0.0;
+img=0.0;
+}
    
-     img=0.0;
-  
-  }
-  
-  Complex(double rp)
-{
-      
-  real=rp;
-   
-     img=0.0;
- 
-   }
- 
    Complex(double rp,double ip)
 {
   
